@@ -1,0 +1,1 @@
+{"_id":"outsystems_blog","startUrl":[],"selectors":[{"parentSelectors":["_root"],"type":"SelectorText","multiple":true,"id":"tags","selector":"div.tags a","regex":"","delay":""}]}

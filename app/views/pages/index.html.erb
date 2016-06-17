@@ -1,0 +1,8 @@
+<h1>Hello</h1>
+<%= link_to 'Export', pages_path(request.parameters.merge({:format => :xls})) %>
+
+<br>
+<br>
+<br>
+<p>Wordpress: <strong><%= @my_array.include? 'wordpress' %></strong></p>
+<p>Google Analytics: <strong><%= @my_array.include? 'google analytics' %></strong></p>

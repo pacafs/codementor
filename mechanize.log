@@ -1,0 +1,80 @@
+# Logfile created on 2016-06-09 01:28:06 +0100 by logger.rb/47272
+I, [2016-06-09T01:34:36.971079 #8964]  INFO -- : Net::HTTP::Get: /
+D, [2016-06-09T01:34:36.971316 #8964] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2016-06-09T01:34:36.971397 #8964] DEBUG -- : request-header: accept => */*
+D, [2016-06-09T01:34:36.971473 #8964] DEBUG -- : request-header: user-agent => Mechanize/2.1.1 Ruby/2.2.1p85 (http://github.com/tenderlove/mechanize/)
+D, [2016-06-09T01:34:36.971545 #8964] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2016-06-09T01:34:36.971612 #8964] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2016-06-09T01:34:36.971677 #8964] DEBUG -- : request-header: host => www.similarweb.com
+I, [2016-06-09T01:34:38.054877 #8964]  INFO -- : status: Net::HTTPForbidden 1.1 403 Forbidden
+D, [2016-06-09T01:34:38.055088 #8964] DEBUG -- : response-header: date => Thu, 09 Jun 2016 00:34:37 GMT
+D, [2016-06-09T01:34:38.055200 #8964] DEBUG -- : response-header: server => PWS/8.1.36
+D, [2016-06-09T01:34:38.055302 #8964] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2016-06-09T01:34:38.055402 #8964] DEBUG -- : response-header: content-encoding => gzip
+D, [2016-06-09T01:34:38.055501 #8964] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2016-06-09T01:34:38.055599 #8964] DEBUG -- : response-header: px-uncompress-origin => 7060
+D, [2016-06-09T01:34:38.055697 #8964] DEBUG -- : response-header: x-px => nc h0-s2079.p9-jfk ( origin)
+D, [2016-06-09T01:34:38.055803 #8964] DEBUG -- : response-header: cache-control => no-store, no-cache, max-age=0, must-revalidate, private,  max-stale=0, post-check=0, pre-check=0
+D, [2016-06-09T01:34:38.055902 #8964] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2016-06-09T01:34:38.055999 #8964] DEBUG -- : response-header: connection => keep-alive
+D, [2016-06-09T01:34:38.056200 #8964] DEBUG -- : response-header: set-cookie => SPSI=15a100607503934ee5797be31086b594; Path=/
+D, [2016-06-09T01:34:38.056969 #8964] DEBUG -- : Read 0 bytes (0 total)
+D, [2016-06-09T01:34:38.057190 #8964] DEBUG -- : Read 10 bytes (10 total)
+D, [2016-06-09T01:34:38.058367 #8964] DEBUG -- : Read 0 bytes (10 total)
+D, [2016-06-09T01:34:38.080371 #8964] DEBUG -- : Read 4794 bytes (4804 total)
+D, [2016-06-09T01:34:38.085176 #8964] DEBUG -- : gzip response
+D, [2016-06-09T01:34:38.088578 #8964] DEBUG -- : saved cookie: SPSI=15a100607503934ee5797be31086b594
+I, [2016-06-09T01:34:52.516005 #8964]  INFO -- : Net::HTTP::Get: /
+D, [2016-06-09T01:34:52.516182 #8964] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2016-06-09T01:34:52.516259 #8964] DEBUG -- : request-header: accept => */*
+D, [2016-06-09T01:34:52.516332 #8964] DEBUG -- : request-header: user-agent => Mechanize/2.1.1 Ruby/2.2.1p85 (http://github.com/tenderlove/mechanize/)
+D, [2016-06-09T01:34:52.516479 #8964] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2016-06-09T01:34:52.516546 #8964] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2016-06-09T01:34:52.516612 #8964] DEBUG -- : request-header: cookie => SPSI=15a100607503934ee5797be31086b594
+D, [2016-06-09T01:34:52.516676 #8964] DEBUG -- : request-header: host => www.similarweb.com
+I, [2016-06-09T01:34:52.780523 #8964]  INFO -- : status: Net::HTTPForbidden 1.1 403 Forbidden
+D, [2016-06-09T01:34:52.780732 #8964] DEBUG -- : response-header: date => Thu, 09 Jun 2016 00:34:52 GMT
+D, [2016-06-09T01:34:52.780849 #8964] DEBUG -- : response-header: server => PWS/8.1.36
+D, [2016-06-09T01:34:52.780952 #8964] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2016-06-09T01:34:52.781051 #8964] DEBUG -- : response-header: content-encoding => gzip
+D, [2016-06-09T01:34:52.781149 #8964] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2016-06-09T01:34:52.781246 #8964] DEBUG -- : response-header: px-uncompress-origin => 7060
+D, [2016-06-09T01:34:52.781344 #8964] DEBUG -- : response-header: x-px => nc h0-s2079.p9-jfk ( origin)
+D, [2016-06-09T01:34:52.781537 #8964] DEBUG -- : response-header: cache-control => no-store, no-cache, max-age=0, must-revalidate, private,  max-stale=0, post-check=0, pre-check=0
+D, [2016-06-09T01:34:52.781663 #8964] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2016-06-09T01:34:52.781852 #8964] DEBUG -- : response-header: connection => keep-alive
+D, [2016-06-09T01:34:52.781997 #8964] DEBUG -- : response-header: set-cookie => SPSI=15a100607503934ee5797be31086b594; Path=/
+D, [2016-06-09T01:34:52.782257 #8964] DEBUG -- : Read 0 bytes (0 total)
+D, [2016-06-09T01:34:52.782407 #8964] DEBUG -- : Read 10 bytes (10 total)
+D, [2016-06-09T01:34:52.782556 #8964] DEBUG -- : Read 0 bytes (10 total)
+D, [2016-06-09T01:34:52.783899 #8964] DEBUG -- : Read 1388 bytes (1398 total)
+D, [2016-06-09T01:34:52.792790 #8964] DEBUG -- : Read 1388 bytes (2786 total)
+D, [2016-06-09T01:34:52.801566 #8964] DEBUG -- : Read 2018 bytes (4804 total)
+D, [2016-06-09T01:34:52.809877 #8964] DEBUG -- : gzip response
+D, [2016-06-09T01:34:52.811857 #8964] DEBUG -- : saved cookie: SPSI=15a100607503934ee5797be31086b594
+I, [2016-06-09T01:34:57.356112 #8964]  INFO -- : Net::HTTP::Get: /
+D, [2016-06-09T01:34:57.356314 #8964] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2016-06-09T01:34:57.356386 #8964] DEBUG -- : request-header: accept => */*
+D, [2016-06-09T01:34:57.356460 #8964] DEBUG -- : request-header: user-agent => Mechanize/2.1.1 Ruby/2.2.1p85 (http://github.com/tenderlove/mechanize/)
+D, [2016-06-09T01:34:57.356530 #8964] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2016-06-09T01:34:57.356599 #8964] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2016-06-09T01:34:57.356664 #8964] DEBUG -- : request-header: cookie => SPSI=15a100607503934ee5797be31086b594
+D, [2016-06-09T01:34:57.356728 #8964] DEBUG -- : request-header: host => www.similarweb.com
+I, [2016-06-09T01:34:57.983760 #8964]  INFO -- : status: Net::HTTPForbidden 1.1 403 Forbidden
+D, [2016-06-09T01:34:57.983973 #8964] DEBUG -- : response-header: date => Thu, 09 Jun 2016 00:34:57 GMT
+D, [2016-06-09T01:34:57.984188 #8964] DEBUG -- : response-header: server => PWS/8.1.36
+D, [2016-06-09T01:34:57.984292 #8964] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2016-06-09T01:34:57.984392 #8964] DEBUG -- : response-header: content-encoding => gzip
+D, [2016-06-09T01:34:57.984489 #8964] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2016-06-09T01:34:57.984586 #8964] DEBUG -- : response-header: px-uncompress-origin => 7060
+D, [2016-06-09T01:34:57.984684 #8964] DEBUG -- : response-header: x-px => nc h0-s2079.p9-jfk ( origin)
+D, [2016-06-09T01:34:57.984821 #8964] DEBUG -- : response-header: cache-control => no-store, no-cache, max-age=0, must-revalidate, private,  max-stale=0, post-check=0, pre-check=0
+D, [2016-06-09T01:34:57.984924 #8964] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2016-06-09T01:34:57.985028 #8964] DEBUG -- : response-header: connection => keep-alive
+D, [2016-06-09T01:34:57.985126 #8964] DEBUG -- : response-header: set-cookie => SPSI=15a100607503934ee5797be31086b594; Path=/
+D, [2016-06-09T01:34:57.985380 #8964] DEBUG -- : Read 0 bytes (0 total)
+D, [2016-06-09T01:34:57.985544 #8964] DEBUG -- : Read 10 bytes (10 total)
+D, [2016-06-09T01:34:57.987343 #8964] DEBUG -- : Read 0 bytes (10 total)
+D, [2016-06-09T01:34:58.010591 #8964] DEBUG -- : Read 4794 bytes (4804 total)
+D, [2016-06-09T01:34:58.015391 #8964] DEBUG -- : gzip response
+D, [2016-06-09T01:34:58.018194 #8964] DEBUG -- : saved cookie: SPSI=15a100607503934ee5797be31086b594
